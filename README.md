@@ -1,5 +1,13 @@
 # Project-FWOD
 
+
+ABSTRACT
+This is a Computer Vision and Deep Learning System which detects vehicles, tracks them, assigns them ids, estimates their speed and generates a pdf report and creates a scatter plot. The system employs the YOLOv4 object detection algorithm and the DeepSORT algorithm for multi-object tracking. The system uses OpenCV, an open-source computer vision library, to load and modify video footage, and Polygon Testing which is used to determine when a vehicle enters and leaves a predefined region of interest. To estimate the speed of a vehicle, the system uses the unique IDs of each vehicle detected and tracked by YOLOv4 and DeepSORT respectively in the video stream after which it defines two regions of interest along a lane of the road. When a vehicle enters the first region, a timer starts, and when it exits the second region, the timer stops. The time difference, along with the distance between the two regions, is used to estimate the vehicle's speed. All data, including vehicle IDs, vehicle type, and speed, is stored in an Excel file. If a vehicle's speed exceeds a preset limit, the system captures an image of the vehicle and generates a PDF report which contains the Vehicle type, Speed, Vehicle Id and the image of the vehicle. Additionally, the system creates a scatter plot which provides valuable insights into traffic patterns and trends that helps visualize and analyze the traffic flow.
+
+
+
+
+
 how to use the project 
 
 conda env create -n ENVNAME --file project_env.yml
@@ -60,4 +68,5 @@ use it to make a a square in the frame for the video. look at the code for makin
 
 
 
-
+reference and thanks to
+https://github.com/theAIGuysCode/yolov4-deepsort.
