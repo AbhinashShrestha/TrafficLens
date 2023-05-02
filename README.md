@@ -8,7 +8,9 @@ This is a Computer Vision and Deep Learning System which detects vehicles, track
 
 
 
-how to use the project 
+how to use the project on mac (cpu only) 
+to make this usable via gui on windows . 
+make needed changes to gui.py
 
 conda env create -n ENVNAME --file project_env.yml
 
