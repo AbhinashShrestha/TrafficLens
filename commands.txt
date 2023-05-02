@@ -1,0 +1,3 @@
+# below are the commands that we should use
+# python object_tracker.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 --tiny;
+# python object_tracker.py --model yolov4
