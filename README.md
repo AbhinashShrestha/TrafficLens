@@ -13,10 +13,11 @@ to make this usable via gui on windows .
 make needed changes to gui.py
 
 conda env create -n ENVNAME --file project_env.yml
+pip install -r requirements.txt
 
 Download the files from the links 
 
-https://anonfiles.com/XbH3I0ofzc/yolov4_weights
+https://anonfiles.com/XbH3I0ofzc/yolov4_weights(doesnt exist)
 https://anonfiles.com/v5GdIco5zc/variables_data_00000_of_00001
 
 
