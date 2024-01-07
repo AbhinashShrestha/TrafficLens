@@ -1,4 +1,4 @@
-# Project-FWOD: A Vehicle Detection and Speed Estimation System
+# TrafficLens: Real-time Surveillance and Speed Monitoring
 
 ## Overview
 Project-FWOD is a comprehensive system developed as part of a Bachelor's degree in Computer Engineering. It leverages Computer Vision and Deep Learning techniques to detect and track vehicles, estimate their speed, and generate insightful reports and visualizations.
